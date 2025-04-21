@@ -1,0 +1,21 @@
+/* font-family: "Alumni Sans Inline One", sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image:url(images/shadows.png) ;
+    background-repeat: no-repeat;
+    background-color: linear-gradient(0deg, rgba(1, 4, 6, 0.87), rgba(1, 4, 6, 0.87)),
+linear-gradient(0deg, rgba(3, 7, 16, 0.22), rgba(3, 7, 16, 0.22)),
+radial-gradient(52.78% 52.78% at 50% 50%, rgba(3, 7, 16, 0) 0%, rgba(3, 7, 16, 0.65) 100%),
+linear-gradient(153.37deg, #030710 19.4%, rgba(3, 7, 16, 0) 68.79%);
+background-size: cover;
+background-position: center;
+height: 100vh;
+width: 100%;
+
+}
