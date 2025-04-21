@@ -8,11 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Alumni+Sans+Inline+One:ital@0;1&family=Bangers&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Allerta&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <!-- custom font -->
-    <link rel="stylesheet" href="font/stylesheet.css" />
     <!-- custom css -->
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -24,9 +22,68 @@
       <img src="images/loading-text.png" alt="" />
     </div>
 
-    <div class="footer_area"></div>
+    <div class="footer_area">
+      <div class="footer_inner_area">
+        <!-- music player -->
+        <div class="music_player">
+          <button class="prev">
+            <img src="images/button_lastsong.png" alt="Prev" />
+          </button>
+          <div style="margin-top: -21px">
+            <p>VOLUME</p>
+            <input
+              type="range"
+              id="customRange"
+              min="0"
+              max="100"
+              value="63.91"
+            />
+          </div>
+          <button class="next">
+            <img src="images/button_nextsong.png" alt="Next" />
+          </button>
+          <audio id="audioPlayer" controls hidden></audio>
+        </div>
+
+        <!-- check it out area -->
+        <div class="checkItOut">
+          <img src="images/Guarantee.png" alt="" class="granteeimg" />
+          <img src="images/SHOP.png" alt="" class="shopimg" />
+          <h3>CHECK IT OUT</h3>
+          <a target="_blank" href="https://tebex.io" class="tebexbtn">
+            <img src="images/buy.png" alt="" />
+          </a>
+        </div>
+        <!-- social media link area -->
+        <ul class="social_link_area">
+          <li>
+            <!-- youtube -->
+            <a target="_blank" href="#">
+              <img src="images/youtube.png" alt="" />
+            </a>
+          </li>
+          <li>
+            <!-- twitch -->
+            <a target="_blank" href="#">
+              <img src="images/twitch.png" alt="" />
+            </a>
+          </li>
+          <li>
+            <!-- instagram -->
+            <a target="_blank" href="#">
+              <img src="images/instagram.png" alt="" />
+            </a>
+          </li>
+          <li>
+            <!-- discord -->
+            <a target="_blank" href="#">
+              <img src="images/discord.png" alt="" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <!-- javascript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="main.js"></script>
   </body>
 </html>
