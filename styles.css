@@ -1,21 +1,68 @@
 /* font-family: "Alumni Sans Inline One", sans-serif; */
-*{
+* {
     margin: 0;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
 
 }
-body{
-    background-image:url(images/shadows.png) ;
+
+body {
+    background-image: url(images/shadows.png);
     background-repeat: no-repeat;
     background-color: linear-gradient(0deg, rgba(1, 4, 6, 0.87), rgba(1, 4, 6, 0.87)),
-linear-gradient(0deg, rgba(3, 7, 16, 0.22), rgba(3, 7, 16, 0.22)),
-radial-gradient(52.78% 52.78% at 50% 50%, rgba(3, 7, 16, 0) 0%, rgba(3, 7, 16, 0.65) 100%),
-linear-gradient(153.37deg, #030710 19.4%, rgba(3, 7, 16, 0) 68.79%);
-background-size: cover;
-background-position: center;
-height: 100vh;
-width: 100%;
+        linear-gradient(0deg, rgba(3, 7, 16, 0.22), rgba(3, 7, 16, 0.22)),
+        radial-gradient(52.78% 52.78% at 50% 50%, rgba(3, 7, 16, 0) 0%, rgba(3, 7, 16, 0.65) 100%),
+        linear-gradient(153.37deg, #030710 19.4%, rgba(3, 7, 16, 0) 68.79%);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
 
 }
+.main-container{
+   
+}
+.header-loading-text-area {
+    max-width: 1045px;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.header-loading-text-area h2 {
+    font-family: Alumni Sans Inline One;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    color: #B9B9B9;
+    transform: rotate(-3.75deg);
+    /* box-shadow: 0px 0px 250px 0px #FFFFFF8C; */
+
+}
+.header-loading-text-area img{
+    width: 100%;
+}
+.header-loading-text-area h1 {
+    font-family: Druk Cyr;
+    font-weight: 500;
+    font-size: 250px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    background: radial-gradient(56.06% 55.6% at 50% 50%, #FF9224 0%, #864D14 100%);
+    background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 2px #FF9224;
+    transform: rotate(-3.75deg);
+    margin-top: -40px;
+    text-shadow: 0px 0px 250px 0px #FF92248C;
+
+
+}
+
